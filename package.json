@@ -1,0 +1,36 @@
+{
+  "name": "medium-like-blog-backend",
+  "version": "1.0.0",
+  "description": "An Express and NodeJS based backend implementation of the RealWorld API Spec.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ditikrushna/Medium-like-Blog-Backend.git"
+  },
+  "author": "Ditikrushna Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ditikrushna/Medium-like-Blog-Backend/issues"
+  },
+  "homepage": "https://github.com/ditikrushna/Medium-like-Blog-Backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
