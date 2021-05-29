@@ -2,6 +2,29 @@
 
 An Express and NodeJS based backend implementation of the [RealWorldAPI Spec](https://github.com/gothinkster/realworld/tree/master/api).
 
+#### Install
+
+> Please use NPM for installing and managing dependencies. If you use Yarn, make sure to run `prepare` script after installing packages: `yarn prepare`. This will install git hooks using husky.
+
+```
+# clone the repository to your local machine
+$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/Medium-like-Blog-Backend.git
+
+# navigate to the project's directory
+$ cd Medium-like-Blog-Backend
+
+# install all the relevant (dev) dependencies using npm
+$ npm install
+
+# Copy .env.example to .env
+$ It is recommended to install [MongoDB Compass](https://www.mongodb.com/try/download/compass) to visualize data in mongodb
+
+# Start application
+$ npm start
+
+# Visit http://localhost:3030/ in your browser
+```
+
 #### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
