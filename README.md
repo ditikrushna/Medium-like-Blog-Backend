@@ -7,6 +7,13 @@
  **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM)  , **_Mocha_**  (Testing Framework)  , **_Swagger_**  (API documentation) 
 
 
+#### Unit Testing
+
+- Currently we are working on the implementation of unit-tests.
+
+- This will improve the our codebase & help to manage all the wierd cases.
+
+- We are using Mocha & Chai for the unit-testing. We welcome you, for helping us to improve test casing.
 
 
 
