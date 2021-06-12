@@ -7,7 +7,7 @@
   
  **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM)  , **_Mocha_**  (Testing Framework)  , **_Swagger_**  (API documentation) 
 
-#### Project Structure  
+#### Project Structure:  
 
 We will structure our application using the controller, service, and, manager pattern so our app will be broken into the managers, services, and controllers. The  `Manager-Service-Controller`  pattern breaks up the business layer of the app into three distinct layers:
 
