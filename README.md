@@ -4,7 +4,9 @@
 
 #### Technology Stack: 
   
-  **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database) and  **_Sequelize_**  (ORM) 
+    **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM)  , **_Mocha_**  (Testing Framework)  , **_Swagger_**  (TPI documentation) 
+
+
 
 
 
