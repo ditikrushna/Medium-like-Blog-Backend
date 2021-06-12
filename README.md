@@ -2,6 +2,12 @@
 
 
 
+#### Technology Stack
+  
+  **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM) 
+
+
+
 #### How to Contribute :
 
 -   Open source contributions are all about making changes to the project and pushing PRs to ensure that your contribution can be made visible in the final project.
