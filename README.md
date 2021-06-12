@@ -13,7 +13,7 @@
 
 - This will improve the our codebase & help to manage all the wierd cases.
 
-- We are using Mocha & Chai for the unit-testing. We welcome you, for helping us to improve test casing.
+- We are using Mocha for the unit-testing. We welcome you, for helping us to improve test casing.
 
 
 
