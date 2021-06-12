@@ -1,4 +1,6 @@
  ### Medium Like Blog - Backend 
+ 
+ Medium Like Blog (backend) created with Node JS and Express and MySQL.  
 
 
 
