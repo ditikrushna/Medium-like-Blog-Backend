@@ -21,23 +21,26 @@
 -   Add Screenshots to help us know what the Script is all about.
     
 
-#### Install
+#### Installation Instructions
 
 > Please use NPM for installing and managing dependencies. If you use Yarn, make sure to run `prepare` script after installing packages: `yarn prepare`. This will install git hooks using husky.
 
+clone the repository to your local machine
 
-**clone the repository to your local machine** 
-$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/Medium-like-Blog-Backend.git
+    $git clone https://github.com/<YOUR-GITHUB-USERNAME>/Medium-like-Blog-Backend.git
 
-**navigate to the project's directory**
-$ cd Medium-like-Blog-Backend
+navigate to the project's directory
 
-**install all the relevant (dev) dependencies using npm**
-$ npm install
+    $cd Medium-like-Blog-Backend
 
-**Copy .env.example to .env**
+install all the relevant (dev) dependencies using npm
 
-**start application*
-$ npm start
+    $ npm install
 
-**Visit http://localhost:3030/ in your browser**
+Copy .env.example to .env 
+
+start application
+
+    $ npm start
+
+Visit http://localhost:3030/ in your browser
