@@ -2,7 +2,7 @@
 
 
 
-#### Technology Stack
+#### Technology Stack: 
   
   **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM) 
 
@@ -27,7 +27,7 @@
 -   Add Screenshots to help us know what the Script is all about.
     
 
-#### Installation Instructions
+#### Installation Instructions: 
 
 > Please use NPM for installing and managing dependencies. If you use Yarn, make sure to run `prepare` script after installing packages: `yarn prepare`. This will install git hooks using husky.
 
