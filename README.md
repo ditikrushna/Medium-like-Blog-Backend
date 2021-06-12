@@ -7,7 +7,7 @@
  **_NodeJS_**  (Platform) ,  **_Express_**  (Framework)  **_JavaScript_**  (Programming Language)  ,  **_MySQL_** (Database)  **_Sequelize_**  (ORM)  , **_Mocha_**  (Testing Framework)  , **_Swagger_**  (API documentation) 
 
 
-#### Unit Testing
+#### Unit Testing: 
 
 - Currently we are working on the implementation of unit-tests.
 
