@@ -1,42 +1,42 @@
 'use strict'
- const {apiFailurMessage , httpsConstants} = require('../common/constants');
+const { apiFailurMessage, httpsConstants } = require('../common/constants');
 
 class Utils {
-    static response ( res , data , message , success , code) {
+    static response(res, data, message, success, code) {
         const responseObj = {
-            responseData : data ,
-            message : message ,
-            success : success ,
-            responseCode : code 
+            responseData: data,
+            message: message,
+            success: success,
+            responseCode: code
         }
         res.format({
-            json:() => {
+            json: () => {
                 res.send(responseObj);
             }
         })
     }
 
 
-    static responseForValidation (res , errorArray , success , code = 400) {
+    static responseForValidation(res, errorArray, success, code = 400) {
         const responseObj = {
-            message : 'Invalid Request',
-            errors : errorArray ,
-            success : success ,
-            responseCode : code 
+            message: 'Invalid Request',
+            errors: errorArray,
+            success: success,
+            responseCode: code
         }
         res.format({
-            json:() => {
+            json: () => {
                 res.send(responseObj);
             }
         })
     }
 
-    static handleError(err , req , res) {
-        if(!res) {return false;}
-        err = err || {} ;
-        const msg = err.message ? err.message : apiFailurMessage.INTERNAL_SERVER.ERROR 
-        const code = err.code ? err.code : httpsConstants.RESPONSE.CODES.SERVER_ERROR 
-        this.response(res , {} , msg , httpsConstants.RESPONSE_STATUS_FAILURE,code);
+    static handleError(err, req, res) {
+        if (!res) { return false; }
+        err = err || {};
+        const msg = err.message ? err.message : apiFailurMessage.INTERNAL_SERVER.ERROR
+        const code = err.code ? err.code : httpsConstants.RESPONSE.CODES.SERVER_ERROR
+        this.response(res, {}, msg, httpsConstants.RESPONSE_STATUS_FAILURE, code);
     }
 
     /**
@@ -47,17 +47,17 @@ class Utils {
      * @return {{code : number , data : * , message : *}}
      */
 
-    static error (data , message , code = 500) {
+    static error(data, message, code = 500) {
         return {
-            data : data ,
-            message : message ,
-            code : code 
+            data: data,
+            message: message,
+            code: code
         }
     }
 
-    static getFormattedDate () {
-        const date = new Date() 
-        return date.getFullYear() + '-' + (date.getMonth() + 1 ) + '_' + date. getDate() + ' ' + date.getHours() + date.getMinutes() + ':' + date.getSeconds();
+    static getFormattedDate() {
+        const date = new Date()
+        return date.getFullYear() + '-' + (date.getMonth() + 1) + '_' + date.getDate() + ' ' + date.getHours() + date.getMinutes() + ':' + date.getSeconds();
     }
 
     /**
@@ -69,7 +69,7 @@ class Utils {
      * @constrctor
      */
 
-    static printLog (functionName , message , payload , developerAlias , logType = 'INFO') {
+    static printLog(functionName, message, payload, developerAlias, logType = 'INFO') {
         console.log(`[${this.getFormattedDate()}] ${logType}:${functionName} : ${message} : ${JSON.stringify(payload)}:Developer:${developerAlias}`);
     }
 }
